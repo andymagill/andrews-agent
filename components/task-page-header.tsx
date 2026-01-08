@@ -8,7 +8,6 @@ import { User } from '@/components/auth/user'
 import { Button } from '@/components/ui/button'
 import { VERCEL_DEPLOY_URL } from '@/lib/constants'
 import type { Session } from '@/lib/session/types'
-import { GitHubStarsButton } from '@/components/github-stars-button'
 
 interface TaskPageHeaderProps {
   task: Task
@@ -27,7 +26,6 @@ export function TaskPageHeader({ task, user, authProvider, initialStars = 1200 }
       showPlatformName={true}
       actions={
         <div className="flex items-center gap-2">
-          <GitHubStarsButton initialStars={initialStars} />
           {/* Deploy to Vercel Button */}
           <Button
             asChild
