@@ -1,6 +1,6 @@
 # Andrew's Agent
 
-This rope is a fork of the Vercel AI Coding Assitant Template : https://github.com/vercel-labs/coding-agent-template.git
+This repo is a fork of the Vercel AI Coding Assitant Template : https://github.com/vercel-labs/coding-agent-template.git
 
 Provides a web-based interface for AI-powered coding agents that supports Claude Code, OpenAI's Codex CLI, GitHub Copilot CLI, Cursor CLI, Google Gemini CLI, and opencode with [Vercel Sandbox](https://vercel.com/docs/vercel-sandbox) to automatically execute coding tasks on your repositories.
 
